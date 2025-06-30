@@ -1,54 +1,31 @@
-# Hearst Marketing Team Research Chatbot
+# Hearst Marketing Team Research Chatbot: Description
 
-A Streamlit app for generating data-driven crypto mining content and research for the Hearst marketing team.
+This chatbot is designed to empower the Hearst marketing team with high-quality, data-driven content and research focused on the crypto mining industry.
 
-## Features
-- Researches crypto mining topics using credible sources
-- Generates LinkedIn, Instagram, and X (Twitter) posts
-- Provides technical summaries and simple explanations
-- Exports results to Word documents
+## What the Chatbot Does
+- **Researches Crypto Mining Topics:**
+  - Automatically gathers and summarizes the latest, most credible research and news about any crypto mining topic you enter.
+  - Sources information from trusted industry publications, academic papers, and reputable news outlets.
 
-## Setup
+- **Generates Professional Social Media Content:**
+  - Creates ready-to-use LinkedIn, Instagram, and X (Twitter) posts based on the research, tailored for a professional audience.
+  - Each post is data-driven, positive, and references the latest industry findings (with source links provided separately).
 
-1. **Clone the repository** and navigate to the `deployed` directory:
-   ```bash
-   cd path/to/deployed
-   ```
+- **Provides Technical and Simple Explanations:**
+  - Delivers both in-depth technical summaries and easy-to-understand explanations for each topic, making complex subjects accessible to everyone.
 
-2. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
+- **Exports to Word Documents:**
+  - Allows users to download the research, posts, and ideas as formatted Word documents for easy sharing and collaboration.
 
-3. **Set the GROQ API Key**:
-   - Obtain your `GROQ_API_KEY` from [Groq](https://groq.com/).
-   - Set it as an environment variable:
-     - On Linux/macOS:
-       ```bash
-       export GROQ_API_KEY=your_key_here
-       ```
-     - On Windows (CMD):
-       ```cmd
-       set GROQ_API_KEY=your_key_here
-       ```
-     - On Windows (PowerShell):
-       ```powershell
-       $env:GROQ_API_KEY="your_key_here"
-       ```
-   - Or add it to your Streamlit Cloud secrets if deploying there.
+- **Idea Generation:**
+  - Suggests actionable content ideas based on the latest industry trends and news, helping the marketing team stay ahead of the curve.
 
-4. **Run the app**:
-   ```bash
-   streamlit run v1.py
-   ```
-
-## Deployment (Streamlit Cloud)
-- Upload all files in the `deployed` directory to your Streamlit Cloud workspace.
-- Set the `GROQ_API_KEY` in the app's secrets or environment variables.
-- Click 'Deploy'.
+## Who Should Use It
+- Marketing professionals seeking credible, up-to-date information and content about crypto mining.
+- Content creators who want to quickly generate social media posts based on real research.
+- Teams looking for inspiration and strategic ideas in the fast-moving crypto space.
 
 ---
 
-**Note:**
-- Do not hardcode API keys in your code.
-- For best results, use a recent version of Python (3.9+).
+**In summary:**
+This chatbot is a one-stop solution for research, content creation, and idea generation in the crypto mining sector, designed to save time and ensure quality for the Hearst marketing team.
