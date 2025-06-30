@@ -2,3 +2,4 @@ agno==1.4.2
 docx==0.2.4
 python_docx==1.1.2
 streamlit==1.32.0
+duckduckgo_search==7.3.2
